@@ -46,7 +46,7 @@ Run
         </configuration>
       </plugin>
     </plugins>
-  </build>
+  
 
 to pom.xml
 
