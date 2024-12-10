@@ -6,6 +6,9 @@
 
 mvn test -Dsurefire.suiteXmlFiles=testng.xml
 
+![image](https://github.com/user-attachments/assets/7228638e-184b-4084-b1a4-afed0a1d8cb9)
+
+
 ## Tech Stack
 
 - Java ( JDK > 21)
