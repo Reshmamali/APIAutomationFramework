@@ -22,8 +22,10 @@ mvn test -Dsurefire.suiteXmlFiles=testng.xml
 - Jenkins File
 
 ### API Framework Important Components
+![image](https://github.com/user-attachments/assets/21c800fc-d594-4657-90e5-2805766f08f4)
 
 ### Running via CI/CD
+![image](https://github.com/user-attachments/assets/549fe984-dc74-4e8d-8e47-f38695d47a04)
 
 Run
 
@@ -32,23 +34,23 @@ Run
 - Install Maven
 - add config to run the suite or testng
 
--<plugins>
-<plugin>
-<groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-surefire-plugin</artifactId>
-<version>3.3.0</version>
-<configuration>
-<suiteXmlFiles>
-<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-</suiteXmlFiles>
-</configuration>
-</plugin>
-</plugins>
-</build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.3.0</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 to pom.xml
 
-mvn clean test -DsuiteXmlFile=testng.xml
+mvn clean test -DsuiteXmlFile=testng.xml 
 
 ### Parallel Execution
 To run tests in parallel, add the parallel attribute to your testng.xml file:
@@ -61,7 +63,8 @@ mvn clean test -DsuiteXmlFile=testng-integration.xml
 ###   Allure Report Generated.
 allure serve allure-results/
 
-image
+![image](https://github.com/user-attachments/assets/dc630741-09b2-4590-b6b8-c93659415943)
+
 
 Certainly! I'll guide you through the steps to install Allure and generate a report for a Java project using TestNG.
 Here's a step-by-step process:
