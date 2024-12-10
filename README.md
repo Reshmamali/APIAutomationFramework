@@ -122,9 +122,10 @@ This command will create an allure-report folder containing the generated report
 This will start a local web server and open the report in your default browser.
 
 ### Additional Tips
-You can use the @Severity annotation to indicate the importance of your tests.
-Allure supports attaching screenshots, which can be useful for UI tests.
-For more advanced configurations and features, refer to the official Allure documentation.
+- You can use the @Severity annotation to indicate the importance of your tests.
+- Allure supports attaching screenshots, which can be useful for UI tests.
+- For more advanced configurations and features, refer to the official Allure documentation.
+
 By following these steps, you should be able to successfully install Allure, run your TestNG tests, and generate a
 comprehensive Allure report for your Java project.
 
