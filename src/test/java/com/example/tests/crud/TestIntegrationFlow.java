@@ -94,5 +94,7 @@ public class TestIntegrationFlow extends BaseTest {
        validatableResponse = response.then().log().all();
        validatableResponse.statusCode(201);
 
+       //
+
     }
 }
